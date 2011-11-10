@@ -11,7 +11,7 @@ from django.views.generic.edit import (FormView as BaseFormView,
 
 from django import VERSION
 
-if float('%d.%d' % VERSION[:2]) >= 1.4:
+if float('%d.%d1' % VERSION[:2]) >= 1.4:
     """
     Only available for Django >= 1.4
 
