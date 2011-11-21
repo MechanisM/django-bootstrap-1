@@ -5,7 +5,7 @@ import os
 root = os.path.dirname(os.path.abspath(__file__))
 os.chdir(root)
 
-VERSION = '0.2.3'
+VERSION = '0.2.4'
 
 # Make data go to the right place.
 # http://groups.google.com/group/comp.lang.python/browse_thread/thread/35ec7b2fed36eaec/2105ee4d9e8042cb
