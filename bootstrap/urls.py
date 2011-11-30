@@ -6,10 +6,10 @@ from .views import (ListView,
                     DeleteView)
 
 
-def bootstrap_patterns(*forms):
+def bootstrap_patterns(*forms, **kwargs):
     patterns_ = patterns('')
     for form in forms:
-        patterns_ += bootstrap_pattern(form)
+        patterns_ += bootstrap_pattern(form, **kwargs)
     return patterns_
 
 
